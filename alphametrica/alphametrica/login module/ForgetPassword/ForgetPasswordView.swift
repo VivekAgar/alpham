@@ -43,7 +43,6 @@ class ForgetPasswordView: UIViewController, ForgetPasswordViewProtocol, UITextFi
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
             NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         self.emailTextField.delegate = self
-        self.emailTextField.text = "test@luxpmsoft.com"
         
     }
     

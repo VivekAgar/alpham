@@ -29,6 +29,7 @@
 		CE8E67AE26BA295000C680C9 /* NewPasswordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E67AD26BA295000C680C9 /* NewPasswordInteractor.swift */; };
 		CE8E67B126BA296300C680C9 /* NewPasswordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E67B026BA296300C680C9 /* NewPasswordEntity.swift */; };
 		CE8E67B426BA297200C680C9 /* NewPasswordRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E67B326BA297200C680C9 /* NewPasswordRoute.swift */; };
+		CE8E67BE26BA49CF00C680C9 /* alphametricaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E67BD26BA49CF00C680C9 /* alphametricaTests.swift */; };
 		CE92BB8926B8001200C64F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92BB8826B8001200C64F8D /* AppDelegate.swift */; };
 		CE92BB8B26B8001200C64F8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92BB8A26B8001200C64F8D /* SceneDelegate.swift */; };
 		CE92BB9226B8001700C64F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE92BB9126B8001700C64F8D /* Assets.xcassets */; };
@@ -40,6 +41,16 @@
 		CE92BBBF26B8014E00C64F8D /* LoginEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92BBBE26B8014E00C64F8D /* LoginEntities.swift */; };
 		CE92BBC226B80C4C00C64F8D /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE92BBC126B80C4C00C64F8D /* LoginView.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8E67C026BA49CF00C680C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE92BB7D26B8001200C64F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE92BB8426B8001200C64F8D;
+			remoteInfo = alphametrica;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CE54BE9226B87AC600ABBFDB /* ForgetPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPasswordView.xib; sourceTree = "<group>"; };
@@ -64,6 +75,9 @@
 		CE8E67AD26BA295000C680C9 /* NewPasswordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordInteractor.swift; sourceTree = "<group>"; };
 		CE8E67B026BA296300C680C9 /* NewPasswordEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordEntity.swift; sourceTree = "<group>"; };
 		CE8E67B326BA297200C680C9 /* NewPasswordRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordRoute.swift; sourceTree = "<group>"; };
+		CE8E67BB26BA49CF00C680C9 /* alphametricaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alphametricaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E67BD26BA49CF00C680C9 /* alphametricaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alphametricaTests.swift; sourceTree = "<group>"; };
+		CE8E67BF26BA49CF00C680C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE92BB8526B8001200C64F8D /* alphametrica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alphametrica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE92BB8826B8001200C64F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE92BB8A26B8001200C64F8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +93,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE8E67B826BA49CF00C680C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE92BB8226B8001200C64F8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,10 +160,20 @@
 			name = NewPassword;
 			sourceTree = "<group>";
 		};
+		CE8E67BC26BA49CF00C680C9 /* alphametricaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E67BD26BA49CF00C680C9 /* alphametricaTests.swift */,
+				CE8E67BF26BA49CF00C680C9 /* Info.plist */,
+			);
+			path = alphametricaTests;
+			sourceTree = "<group>";
+		};
 		CE92BB7C26B8001200C64F8D = {
 			isa = PBXGroup;
 			children = (
 				CE92BB8726B8001200C64F8D /* alphametrica */,
+				CE8E67BC26BA49CF00C680C9 /* alphametricaTests */,
 				CE92BB8626B8001200C64F8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				CE92BB8526B8001200C64F8D /* alphametrica.app */,
+				CE8E67BB26BA49CF00C680C9 /* alphametricaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +220,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE8E67BA26BA49CF00C680C9 /* alphametricaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E67C426BA49CF00C680C9 /* Build configuration list for PBXNativeTarget "alphametricaTests" */;
+			buildPhases = (
+				CE8E67B726BA49CF00C680C9 /* Sources */,
+				CE8E67B826BA49CF00C680C9 /* Frameworks */,
+				CE8E67B926BA49CF00C680C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8E67C126BA49CF00C680C9 /* PBXTargetDependency */,
+			);
+			name = alphametricaTests;
+			productName = alphametricaTests;
+			productReference = CE8E67BB26BA49CF00C680C9 /* alphametricaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CE92BB8426B8001200C64F8D /* alphametrica */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE92BB9926B8001700C64F8D /* Build configuration list for PBXNativeTarget "alphametrica" */;
@@ -214,6 +264,10 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					CE8E67BA26BA49CF00C680C9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CE92BB8426B8001200C64F8D;
+					};
 					CE92BB8426B8001200C64F8D = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -233,11 +287,19 @@
 			projectRoot = "";
 			targets = (
 				CE92BB8426B8001200C64F8D /* alphametrica */,
+				CE8E67BA26BA49CF00C680C9 /* alphametricaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE8E67B926BA49CF00C680C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE92BB8326B8001200C64F8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +317,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE8E67B726BA49CF00C680C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E67BE26BA49CF00C680C9 /* alphametricaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE92BB8126B8001200C64F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +359,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CE8E67C126BA49CF00C680C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE92BB8426B8001200C64F8D /* alphametrica */;
+			targetProxy = CE8E67C026BA49CF00C680C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		CE92BB9326B8001700C64F8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -301,6 +379,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CE8E67C226BA49CF00C680C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M89MX75MX;
+				INFOPLIST_FILE = alphametricaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.alphametricaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alphametrica.app/alphametrica";
+			};
+			name = Debug;
+		};
+		CE8E67C326BA49CF00C680C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M89MX75MX;
+				INFOPLIST_FILE = alphametricaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.alphametricaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alphametrica.app/alphametrica";
+			};
+			name = Release;
+		};
 		CE92BB9726B8001700C64F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -458,6 +576,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE8E67C426BA49CF00C680C9 /* Build configuration list for PBXNativeTarget "alphametricaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E67C226BA49CF00C680C9 /* Debug */,
+				CE8E67C326BA49CF00C680C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE92BB8026B8001200C64F8D /* Build configuration list for PBXProject "alphametrica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
