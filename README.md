@@ -16,6 +16,6 @@ R - Router, as its name , it is responsible to route between multiple applicatio
 
 
 
-this project is builded with Swift 5 and with Xcode 12.2.
+This project is builded with Swift 5 and with Xcode 12.2.
 
 Happy Coding!  
